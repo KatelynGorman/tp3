@@ -15,6 +15,7 @@ ul ul {
   color: #999;
 }
 
-#equipment li:nth-child(3) {
+#equipment li:nth-child(3)
+li:nth-child(4) {
   color: red;
 }
