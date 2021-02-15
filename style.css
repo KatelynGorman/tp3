@@ -1,13 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+{
+  box-sizing: border-box:
+}
+
+div {
+  display: inline-block;
+  float: middle;
+  width: calc (100vw/3-13);
+  background-color: #fcc;
+  padding: 1vw;
+}
+
 li {
-  font-family: Georgia;
+  font-family: Consolas;
 }
 
 ul ul {
   list-style-type: circle;
 }
 
+
+
 #ingredients li { 
-  font-family: Arial;
+  font-family: 'Reggae One', cursive;
 }
 
 #ingredients li span {
@@ -15,7 +31,13 @@ ul ul {
   color: #999;
 }
 
-#equipment li:nth-child(3)
+#equipment 
 li:nth-child(4) {
   color: red;
 }
+
+#equipment 
+li:nth-child(3) {
+  color: red;
+}
+
