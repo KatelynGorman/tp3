@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
-  font-family: 'Lexend Mega', sans-serif;
-
 li {
-  font-family:'Reggae One', cursive;
+  font-family: Georgia;
 }
 
 ul ul {
-  list-style-type: square;
+  list-style-type: circle;
 }
 
 #ingredients li { 
   font-family: Arial;
 }
 
-
+#ingredients li span {
+  font-style: italic;
+  color: #999;
+}
 
 #equipment li:nth-child(3) {
   color: red;
